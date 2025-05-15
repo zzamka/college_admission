@@ -1,0 +1,13 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* إضافة دعم RTL */
+html[dir="rtl"] {
+  direction: rtl;
+}
+
+/* تخصيصات إضافية */
+.alert-error {
+  @apply bg-red-100 border-red-400 text-red-700;
+}
